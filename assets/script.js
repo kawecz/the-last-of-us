@@ -5,3 +5,13 @@ function clickmenu() {
         itens.style.display ='none'
     }
 }
+
+function tamanho() {
+    if(window.innerWidth >= 990) {
+        itens.style.display = 'block'
+        burguer.style.display = 'none'
+    } else {
+        itens.style.display = 'none'
+        burguer = 'block'
+    }
+}

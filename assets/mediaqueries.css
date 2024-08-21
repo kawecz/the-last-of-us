@@ -1,0 +1,114 @@
+@media screen and (min-width: 880px) {
+    .content {
+        display: flex;
+        justify-content:  center;
+    }
+    .content > p {
+        width: 640px;
+    }
+
+    .image {
+        display: flex;
+        height: 450px;
+        background-image: url(../imgs/the-last-main.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+        
+        
+    }
+
+    .img-actors > img {
+       width: 650px
+    }
+
+    .description-actors {
+        width: 650px;
+    }
+}
+
+
+@media screen and (min-width:990px) {
+    * {
+        transition: all 1s;
+    }
+    header {
+        height: 120px;
+    }
+
+    nav {
+        background-color: var(--cor1);
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em 
+    }
+
+    
+    #burguer {
+        display: none;
+
+    }
+
+
+    .content {
+        display: flex;
+        justify-content:  center;
+    }
+    .content > p {
+        width: 640px;
+    }
+
+    .image {
+        display: flex;
+        height: 450px;
+        background-image: url(../imgs/the-last-main.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+        
+        
+    }
+
+    .img-actors > img {
+       width: 650px
+    }
+
+    .description-actors {
+        width: 650px;
+    }
+
+
+}
+
+@media screen  and (min-width:1200px) {
+    .content {
+        display: flex;
+        justify-content:  center;
+    }
+    .content > p {
+        width: 640px;
+    }
+
+    .image {
+        display: flex;
+        height: 450px;
+        background-image: url(../imgs/the-last-main.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+        
+        
+    }
+
+    .img-actors > img {
+       width: 650px
+    }
+
+    .description-actors {
+        width: 650px;
+    }
+}
