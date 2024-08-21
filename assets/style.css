@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor1:#151412;
+    --cor2:#2E3E4D;
+}
+
+body, html {
+    background-color: var(--cor1);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
+    background-color: var(--cor1);
+    
+}
+
+span {
+    color: white;
+    cursor: pointer;
+    
+}
+
+nav {
+    background-color: #020e2631;
+    padding: 2em;
+    border-radius: 1em;
+    display: none;
+}
+
+#itens {
+    cursor: pointer;
+}
+
+nav > ul > li {
+    color: white;
+    list-style: none;
+    padding: 1em;
+    font-family: "Moderustic", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li > a:hover {
+    transition: all 1s;
+    font-size: 15pt;
+    color: #2E3E4D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.image {
+    display: flex;
+    height: 450px;
+    background-image: url(../imgs/the-last-main.jpg);
+    background-size: cover;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.image > img {
+    width: 160px;
+    height: 255px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.content > p {
+    font-family: "Moderustic", sans-serif;
+    font-weight: 420;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 2em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    text-align: center;
+}
+
+section > h2 {
+     font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     background-color: var(--cor1);
+     color: white;
+     padding: 1em;
+     border-radius: 1em;
+}
+
+section > p {
+    font-family: "Moderustic", sans-serif;
+    font-weight: 450;
+    width: 250px;
+    text-align: justify;
+}
+
+.cast {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-actors > img {
+    width: 390px;
+   border-radius: 1em;
+    margin-top: 5em;
+}
+
+.description-actors > h2 {
+    margin-top: 1em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.description-actors > p {
+    font-family: "Moderustic", sans-serif;
+    font-weight: 450;
+    text-align: justify;
+    padding: 1em;
+}
+
+
+
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    padding: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer > p {
+    background-color: white;
+    color: var(--cor1);
+    padding: 1em;
+    border-radius: 2em;
+    font-family: "Moderustic", sans-serif;
+}
+
+footer > p > a {
+
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer > p > a:hover {
+    color:var(--cor1);
+    transition: all 1s;
+}
