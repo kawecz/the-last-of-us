@@ -104,11 +104,26 @@
         
     }
 
-    .img-actors > img {
-       width: 650px
+    .img-actors {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
     }
 
-    .description-actors {
+    .img-actors > img {
+       width: 450px 
+       
+    }
+
+    #img {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.562);
+    }
+
+    .img-actors > p {
         width: 650px;
+        padding: 1em;
+
     }
 }

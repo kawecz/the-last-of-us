@@ -18,6 +18,10 @@ body, html {
     background-color: var(--cor1);
 }
 
+#icon {
+    width: 50px;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -81,7 +85,7 @@ main {
 }
 
 .image > img {
-    width: 160px;
+    width: 170px;
     height: 255px;
     margin-left: 1em;
     margin-top: 1em;
@@ -127,23 +131,26 @@ section > p {
 }
 
 .img-actors > img {
-    width: 390px;
+    width: 380px;
    border-radius: 1em;
     margin-top: 5em;
 }
 
-.description-actors > h2 {
+.description > h2 {
     margin-top: 1em;
+    margin-bottom: 1em;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-}
+    text-align: center;
 
-.description-actors > p {
+}
+.description > p {
     font-family: "Moderustic", sans-serif;
     font-weight: 450;
     text-align: justify;
     padding: 1em;
+    
 }
 
 
