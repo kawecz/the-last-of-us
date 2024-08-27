@@ -7,7 +7,7 @@ function clickmenu() {
 }
 
 function tamanho() {
-    if(window.innerWidth >= 990) {
+    if(window.innerWidth > 990) {
         itens.style.display = 'block'
         burguer.style.display = 'none'
     } else {
