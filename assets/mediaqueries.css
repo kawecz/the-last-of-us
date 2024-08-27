@@ -7,6 +7,10 @@
         width: 640px;
     }
 
+    #contentmain {
+        display: none;
+    }
+
     .image {
         display: flex;
         height: 450px;
@@ -37,6 +41,7 @@
     }
 
     nav {
+        display: block;
         background-color: var(--cor1);
     }
 
@@ -62,6 +67,10 @@
         width: 640px;
     }
 
+    #contentmain {
+        display: none;
+    }
+
     .image {
         display: flex;
         height: 450px;
@@ -85,12 +94,20 @@
 }
 
 @media screen  and (min-width:1200px) {
+    nav {
+        display: block;
+    }
+   
     .content {
         display: flex;
         justify-content:  center;
     }
     .content > p {
         width: 640px;
+    }
+
+    #contentmain {
+        display: none;
     }
 
     .image {

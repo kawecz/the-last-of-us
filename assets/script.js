@@ -15,3 +15,11 @@ function tamanho() {
         burguer = 'block'
     }
 }
+
+function cast() {
+    if(contentmain.style.display == 'none') {
+        contentmain.style.display = 'block'
+    } else {
+        contentmain.style.display ='none'
+    }
+}

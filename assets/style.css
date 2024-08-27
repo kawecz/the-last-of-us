@@ -32,9 +32,14 @@ header {
     
 }
 
+#burguer {
+    display: block;
+}
+
 span {
     color: white;
     cursor: pointer;
+
     
 }
 
@@ -106,6 +111,7 @@ section {
     padding: 1em;
     gap: 1em;
     text-align: center;
+    cursor: pointer;
 }
 
 section > h2 {
@@ -128,6 +134,10 @@ section > p {
 .cast {
     display: flex;
     flex-direction: column;
+}
+
+#content-main {
+    display: none;
 }
 
 .img-actors > img {
