@@ -16,9 +16,13 @@
 <body onresize="tamanho()">
     <header>
         
-        <span  id="burguer" class="material-symbols-outlined" onclick="clickmenu()">
-            menu
-            </span>
+       <button id="btn-menu" onclick="animar()">
+
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+
+       </button>
             
         <nav id="itens">
             <ul>
@@ -41,7 +45,7 @@
 
         <!--Begin of main content-->
         <section onclick="cast()">
-            <h2>The Cast of The Last Of Us</h2>
+            <h2 id="cast">The Cast of The Last Of Us</h2>
             
             
             <div id="contentmain">

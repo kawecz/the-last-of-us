@@ -32,17 +32,45 @@ header {
     
 }
 
-#burguer {
-    display: block;
+button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
 }
 
-span {
-    color: white;
-    cursor: pointer;  
+
+
+.linha {
+    width: 40px;
+    height: 1px;
+    background-color: #ccc;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    transform-origin: center;
+    transition: 0.5s;
 }
+
+button.ativar > .linha:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+   
+}
+
+button.ativar > .linha:nth-child(3) {
+    transform: translateY(-10px) rotate(45deg);
+ 
+}
+
+button.ativar > .linha:nth-child(2) {
+    width: 0;
+}
+
 
 nav {
-    background-color: #020e2631;
+    background-color: #151412;
     padding: 2em;
     border-radius: 1em;
     display: none;
@@ -52,6 +80,8 @@ nav {
     cursor: pointer;
 }
 
+
+
 nav > ul > li {
     color: white;
     list-style: none;
@@ -59,17 +89,22 @@ nav > ul > li {
     font-family: "Moderustic", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+ 
     
+}
+
+nav > ul > li:hover {
+    transform: translateX(10px);
 }
 
 nav > ul > li > a {
     text-decoration: none;
     color: white;
+
 }
 
 nav > ul > li > a:hover {
     transition: all 1s;
-    font-size: 15pt;
     color: #2E3E4D;
 }
 
@@ -77,6 +112,12 @@ main {
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+
+#cast:hover {
+    background-color: #2E3E4D;
+    transform: translateX(10px);
 }
 
 .image {

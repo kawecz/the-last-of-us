@@ -1,4 +1,9 @@
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 990px) {
+    #btn-menu {
+        display: none;
+    }
+
+    
     .content {
         display: flex;
         justify-content:  center;

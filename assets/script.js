@@ -1,9 +1,14 @@
-function clickmenu() {
+function animar() {
+    const btn = document.getElementById('btn-menu')
+    btn.classList.toggle('ativar')
+    
     if(itens.style.display == 'none') {
         itens.style.display = 'block'
     } else {
         itens.style.display ='none'
     }
+
+
 }
 
 function tamanho() {
