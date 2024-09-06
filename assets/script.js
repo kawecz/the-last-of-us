@@ -1,15 +1,8 @@
-function animar() {
-    const btn = document.getElementById('btn-menu')
-    btn.classList.toggle('ativar')
-    
-    if(itens.style.display == 'none') {
-        itens.style.display = 'block'
-    } else {
-        itens.style.display ='none'
-    }
+const hamburger = document.querySelector(".hamburger")
+const nav = document.querySelector(".nav")
 
+hamburger.addEventListener("click", () => nav.classList.toggle("active"))
 
-}
 
 function tamanho() {
     if(window.innerWidth > 990) {
