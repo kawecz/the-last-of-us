@@ -95,7 +95,7 @@ main {
 
 #cast:hover {
     background-color: #2E3E4D;
-    transform: translateX(10px);
+    transform: scale(1.08);
 }
 
 .image {
@@ -151,9 +151,17 @@ section > p {
     text-align: justify;
 }
 
+#contentmain.the-cast-act {
+    display: block;
+}
+
 .cast {
     display: flex;
     flex-direction: column;
+}
+
+#cast.cast-act {
+    background: var(--cor2);
 }
 
 #contentmain {
