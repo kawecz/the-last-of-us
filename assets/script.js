@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger")
 const nav = document.querySelector(".nav")
-const the_cast_btn = document.querySelector("#the-cast-btn")
+const the_cast_btn = document.querySelector("#cast")
 const contentmain = document.querySelector("#contentmain")
 const cast = document.querySelector("#cast")
 
